@@ -20,9 +20,9 @@ ol li { *display: inline; }
 .dp_years, .dp_months { -webkit-box-shadow: 0 0 1px rgba(51, 51, 51, 0.75); -moz-box-shadow: 0 0 1px rgba(51, 51, 51, 0.75); box-shadow: 0 0 1px rgba(51, 51, 51, 0.75); }
 .dp_years li, .dp_months li { width: 33.333%; }
 .dp_years li:nth-child(2n+2), .dp_months li:nth-child(2n+2) { background: #dedede; }
-.dp_years li:hover, .dp_months li:hover { background: #f9dddb; }
+.dp_years li:hover, .dp_months li:hover { background: #8c8c8c; }
 
-.dp_yearNav { text-indent: 110%; white-space: nowrap; overflow: hidden; color: #f2f2f2; display: block; background: #de4e43 url(icons/icons.png) no-repeat 0 0; height: 30px; padding: 10px 0; text-decoration: none; }
+.dp_yearNav { text-indent: 110%; white-space: nowrap; overflow: hidden; color: #f2f2f2; display: block; background: #333333 url(icons/icons.png) no-repeat 0 0; height: 30px; padding: 10px 0; text-decoration: none; }
 
 .dp_pastYears { background-position: 50% 0; }
 
@@ -31,8 +31,8 @@ ol li { *display: inline; }
 .dp_days { position: relative; zoom: 1; vertical-align: top; text-align: left; }
 .dp_days table { width: 100%; table-layout: fixed; text-align: center; border-spacing: 0; border-collapse: collapse; font-size: 18px; }
 .dp_days th, .dp_days td { border: 1px solid #f2f2f2; padding: 10px; font-weight: normal; }
-.dp_days th { background: #de4e43; color: white; }
-.dp_days td:hover { background: #f9dddb; }
+.dp_days th { background: #333333; color: white; }
+.dp_days td:hover { background: #8c8c8c; }
 
 .dp_empty_day { background: #f2f2f2; }
 
@@ -42,7 +42,7 @@ ol li { *display: inline; }
 
 input[type="submit"] { font-size: 1em; display: inline; float: right; padding: 2% 3%; margin: 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; }
 
-.dp_tag { margin-right: 2%; padding: 1% 2%; display: inline; float: left; background: #e6776e; }
-.dp_tag:hover { background: #f1b4af; }
+.dp_tag { margin-right: 2%; padding: 1% 2%; display: inline; float: left; background: #666666; }
+.dp_tag:hover { background: #737373; }
 
 .group { overflow: hidden; *zoom: 1; }
