@@ -20,7 +20,7 @@ $tertiary: lighten($accent, 35%)
   pointer-events: none
 
 .shiny
-  +background-with-css2-fallback(linear-gradient(lighten($secondary, 5%), darken($secondary, 10%)), darken($secondary, 10%))
+  background: $secondary
   border: 1px solid darken($secondary, 15%)
   color: $primary
   +float(left)
@@ -35,9 +35,6 @@ $tertiary: lighten($accent, 35%)
 html
   font-size: 100%
   font-family: Sans-serif
-
-footer
-  margin-top: 2em
 
 .wrapper, form
   width: 300px

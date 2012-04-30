@@ -2,11 +2,9 @@
 
 .overlay, .dp_days th, .dp_empty_day { pointer-events: none; }
 
-.shiny, .dp_tagBox, input[type="submit"] { background: #d9d9d9; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #d9d9d9)), #d9d9d9; background: -webkit-linear-gradient(#ffffff, #d9d9d9), #d9d9d9; background: -moz-linear-gradient(#ffffff, #d9d9d9), #d9d9d9; background: -o-linear-gradient(#ffffff, #d9d9d9), #d9d9d9; background: -ms-linear-gradient(#ffffff, #d9d9d9), #d9d9d9; background: linear-gradient(#ffffff, #d9d9d9), #d9d9d9; border: 1px solid #cccccc; color: #333333; display: inline; float: left; font-size: 1.4em; padding: 2%; cursor: text; margin-bottom: 5px; }
+.shiny, .dp_tagBox, input[type="submit"] { background: #f2f2f2; border: 1px solid #cccccc; color: #333333; display: inline; float: left; font-size: 1.4em; padding: 2%; cursor: text; margin-bottom: 5px; }
 
 html { font-size: 100%; font-family: Sans-serif; }
-
-footer { margin-top: 2em; }
 
 .wrapper, form { width: 300px; }
 
